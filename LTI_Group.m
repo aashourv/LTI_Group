@@ -59,7 +59,7 @@ function [A_opt,J_opt] = LTI_Group(V)
 %   Sérgio Pequito, Universidade de Lisboa
 %
 % Date:
-%   October 2024
+%   July 2024
 %
 % Example:
 %   V = {randn(5, 100), randn(5, 100)};
@@ -67,9 +67,7 @@ function [A_opt,J_opt] = LTI_Group(V)
 %
 % See also:
 %   FMINUNC, OPTIMOPTIONS
-%
-% References:
-%   - Relevant literature or papers if applicable
+
 
 
 n=size(V{1},1);  % Number of Regions 
